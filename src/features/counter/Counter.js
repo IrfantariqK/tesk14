@@ -22,8 +22,7 @@ export function Counter() {
         <button
           aria-label="Decrement value"
           onClick={() => dispatch(incrementByAmount(-5))}
-          disabled={(count - 5) < 0 ? true : false}
-          
+          disabled={(count - 5) < 0 ? true : false} 
         >
           Decrement
         </button>
