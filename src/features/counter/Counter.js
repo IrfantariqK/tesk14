@@ -13,6 +13,7 @@ export function Counter() {
         <button
           aria-label="Increment value"
           onClick={() => dispatch(increment())}
+          disables={(count < 6) }
           
         >
           Increment
