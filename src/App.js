@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import { Counter } from './features/counter/Counter';
 import './App.css';
 
@@ -10,10 +9,10 @@ function App() {
         
         <Counter />
         <p>
-         Wellcome To Task 14
+         (Wellcome To Task 14)
         </p>
         <p>
-         This Task Can do Decrement Or Increment numbers
+         This Task Can do Decrement and Increment numbers
         </p>
       </header>
     </div>
